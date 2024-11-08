@@ -8,13 +8,7 @@ The assertion tests are included so you can test your output
 '''
 
 def replaceDog(input):
-    '''
-    parameters:
-    str input - string to search and replace occurrences of dog with kitty
-
-    return
-    str - the modified string
-    '''
+    input = input.replace("dog","kitty")
     modifiedString = input
 
     return modifiedString
